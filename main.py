@@ -19,5 +19,5 @@ if __name__ == '__main__':
 
     start_handler = CommandHandler('start', start)
     application.add_handler(start_handler)
-#
+
     application.run_polling()
